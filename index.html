@@ -39,12 +39,23 @@
       <form method="post">
         <fieldset>
           <div>
-            <label for="feel">How do you feel</label>
+            <label for="feel">How do you feel</label> <br />
+            <input type="text" /><br />
+          </div>
+          <div>
+            <label for="like">Like</label>
             <input type="text" />
           </div>
         </fieldset>
-        <fieldset></fieldset>
+        <fieldset>
+          <div>
+            <label for="range">Range</label>
+            <input type="range" min="1" max="5" value="2" />
+          </div>
+          <input type="submit" />
+        </fieldset>
       </form>
+      <div class="main">This forms are great</div>
     </section>
     <!-- Javascript -->
     <script src="script.js"></script>
