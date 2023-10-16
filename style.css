@@ -380,7 +380,7 @@ body {
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.6) 100%
     ),
-    url(/Images/pic3.jpg);
+    url(/Images/pic3.svg);
   background-size: cover;
   position: relative;
   color: #fff;
@@ -392,7 +392,7 @@ body {
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.6) 100%
     ),
-    url(/Images/pic4.jpg);
+    url(/Images/pic4.svg);
 }
 .services h2 {
   position: absolute;
